@@ -17,16 +17,16 @@ if (!isset($_SESSION['username'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Microwlights &mdash; Blank Page</title>
     <!-- Icon Microwlights -->
-    <link rel="shortcut icon" href="vendor/microwlights-dashboard/assets/img/brand/icon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="main/assets/img/brand/icon.svg" type="image/x-icon">
     <!-- Custom CSS Files -->
-    <link rel="stylesheet" href="vendor/microwlights-dashboard/main.css">
+    <link rel="stylesheet" href="main/main.css">
 
     <!-- Template CSS -->
-    <link rel="stylesheet" href="vendor/microwlights-dashboard/assets/css/microwlights.css">
+    <link rel="stylesheet" href="main/assets/css/microwlights.css">
 
     <!-- CSS Libraries -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="vendor/microwlights-dashboard/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main/node_modules/bootstrap-icons/font/bootstrap-icons.css">
 
 </head>
 
@@ -77,8 +77,7 @@ if (!isset($_SESSION['username'])) {
                                     class="bi bi-emoji-smile icon-card-notification left text-white text-bg-warning-100 text-warning-500"></i>
                             </div>
                             <div class="description-notification float-end">
-                                <a href="#" class="md-text-md fw-bold text-secondary-700 ps-3">Welcome to Microwlights
-                                    template!</a>
+                                <a href="#" class="md-text-md fw-bold text-secondary-700 ps-3">Welcome </a>
                                 <p class="sm-text-rg text-secondary-500 ps-3">Yesterday</p>
                             </div>
                         </div>
@@ -117,7 +116,7 @@ if (!isset($_SESSION['username'])) {
                     <div class="card-body notif">
                         <div class="d-flex mb-3">
                             <div class="float-start">
-                                <img src="vendor/microwlights-dashboard/assets/img/avatar/avatar-boy.png" alt="avatar"
+                                <img src="main/assets/img/avatar/avatar-boy.png" alt="avatar"
                                     class="w-100">
                             </div>
                             <div class="description-notification float-end">
@@ -128,7 +127,7 @@ if (!isset($_SESSION['username'])) {
                         </div>
                         <div class="d-flex mb-3">
                             <div class="float-start">
-                                <img src="/assets/img/avatar/avatar-girl.png" alt="avatar" class="w-100">
+                                <img src="main/assets/img/avatar/avatar-girl.png" alt="avatar" class="w-100">
                             </div>
                             <div class="description-notification float-end">
                                 <a href="#" class="md-text-md fw-bold text-secondary-700 ps-3 mb-5">Elfira</a><br>
@@ -144,13 +143,13 @@ if (!isset($_SESSION['username'])) {
             </ul>
             <!-- Profile link -->
             <a href="#" id="dropdownProfile" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
-                <img src="vendor/microwlights-dashboard/assets/img/avatar/avatar-2.jpg" alt="avatar">
+                <img src="main/assets/img/avatar/avatar-2.jpg" alt="avatar">
                 <ul class="dropdown-menu border-0 shadow-lg rounded ps-2 pe-5" aria-labelledby="dropdownProfile">
                     <li>
                         <span class="dropdown-header fw-bold">👋 Hey, Fin</span>
                     </li>
                     <li class="align-middle">
-                        <a class="dropdown-item" href="/account/profile.html"> Profil</a>
+                        <a class="dropdown-item" href="/account/profile.html"> Profile</a>
                     </li>
                     <li class="align-middle">
                         <a class="dropdown-item" href="/account/activities.html">Activities</a>
@@ -172,7 +171,7 @@ if (!isset($_SESSION['username'])) {
             <div>
                 <!-- Brand here -->
                 <a href="/" class="nav__logo">
-                    <img src="vendor/microwlights-dashboard/assets/img/brand/logo-light.svg" alt="brand"
+                    <img src="main/assets/img/brand/logo-light.svg" alt="brand"
                         class="nav__logo-icon">
                 </a>
 
@@ -227,21 +226,21 @@ if (!isset($_SESSION['username'])) {
 
     <footer class="main-footer">
         <div class="float-start">
-            Copyright &copy; 2022 <div class="bullet"></div> Design with ❤️ By <a
-                href="https://designwitharifin.netlify.app/">designwitharifin</a>
+            Copyright &copy; 2023 <div class="bullet"></div>  <a
+                href=""></a>
         </div>
         <div class="float-end">
             v1.0.0
         </div>
     </footer>
     <!-- General JS Scripts -->
-    <script src="vendor/microwlights-dashboard/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="main/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
     <!-- Template JS FIle -->
-    <script src="vendor/microwlights-dashboard/node_modules/bootstrap/dist/js/main.js"></script>
+    <script src="main/node_modules/bootstrap/dist/js/main.js"></script>
 
     <!-- Js Libraries -->
-    <script src="vendor/microwlights-dashboard/assets/js/jquery.min.js"></script>
+    <script src="main/assets/js/jquery.min.js"></script>
 
 
 </body>

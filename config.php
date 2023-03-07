@@ -2,10 +2,11 @@
 $server = "localhost";
 $user = "root";
 $pass = "";
-$database = "microwlights";
+$database = "dashboard";
 
 $conn = mysqli_connect($server, $user, $pass, $database);
 
 if (!$conn) {
     die("<script>alert('Failed')</script>");
 }
+?>

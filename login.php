@@ -36,16 +36,16 @@ if (isset($_POST['submit'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Microwlights &mdash; Login</title>
     <!-- Icon Microwlights -->
-    <link rel="shortcut icon" href="vendor/microwlights-dashboard/assets/img/brand/icon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="main/assets/img/brand" type="image/x-icon">
     <!-- Custom CSS Files -->
-    <link rel="stylesheet" href="vendor/microwlights-dashboard/main.css">
+    <link rel="stylesheet" href="main/main.css">
 
     <!-- Template CSS -->
-    <link rel="stylesheet" href="vendor/microwlights-dashboard/assets/css/auth.css">
+    <link rel="stylesheet" href="main/assets/css/auth.css">
 
     <!-- CSS Libraries -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="vendor/microwlights-dashboard/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main/node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
@@ -86,13 +86,13 @@ if (isset($_POST['submit'])) {
                             </div>
                             <div class="form-group mb-4">
                                 <button class="w-100 btn btn-outline-light lg-text-md btn-img-auth" type="submit">
-                                    <img src="vendor/microwlights-dashboard/assets/img/icons/google.svg" alt="icons">
+                                    <img src="main/assets/img/icons/google.svg" alt="icons">
                                     Login with Google
                                 </button>
                             </div>
                             <div class="form-group mb-4">
                                 <button class="w-100 btn btn-outline-light lg-text-md btn-img-auth" type="submit">
-                                    <img src="vendor/microwlights-dashboard/assets/img/icons/github.svg" alt="icons">
+                                    <img src="main/assets/img/icons/github.svg" alt="icons">
                                     Login with Github
                                 </button>
                             </div>
@@ -109,13 +109,13 @@ if (isset($_POST['submit'])) {
     </div>
 
     <!-- General JS Scripts -->
-    <script src="vendor/microwlights-dashboard/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="main/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
     <!-- Template JS FIle -->
-    <script src="vendor/microwlights-dashboard/node_modules/bootstrap/dist/js/main.js"></script>
+    <script src="main/node_modules/bootstrap/dist/js/main.js"></script>
 
     <!-- Js Libraries -->
-    <script src="vendor/microwlights-dashboard/assets/js/jquery.min.js"></script>
+    <script src="main/assets/js/jquery.min.js"></script>
 
 
 </body>
